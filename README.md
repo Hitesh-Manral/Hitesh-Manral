@@ -1,12 +1,29 @@
-- 👋 Hi, I’m @Hitesh-Manral
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+class AboutMe:
+    def __init__(self):
+        self.name = {
+            'first': "Hitesh",
+            'last': "Manral",
+            'pronouns': 'he/him/his'
+        }
+        self.experience = {
+            'curr': 'Building Open Source Projects ',
+            'prev': 'currentky Intern at DRDO'
+        }
+        self.workingOn = 'cvrve'
+        self.learning = 'How to build large-scale, high-throughput platforms'
+        self.socials = {
+            'linkedin': 'https://www.linkedin.com/in/hitesh-manral-04753920b',
+            'email': 'hiteshmanral3@gmail.com'
+        }
 
-<!---
-Hitesh-Manral/Hitesh-Manral is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    def greet(self):
+        emoji_rocket = "🚀"
+        emoji_wave = "👋"
+        emoji_code = "💻"
+        print(f"{emoji_wave} Hi there! I'm Hitesh Manral, currently working on learn new things and technologies.")
+        print(f"I'm building awesome open-source projects  {emoji_code}")
+        print(f"Previously, I interned at DRDO. Always learning new things  {emoji_rocket}")
+        print(f"Feel free to connect with me on LinkedIn: https://www.linkedin.com/in/hitesh-manral-04753920b")
+
+about_me = AboutMe()
+about_me.greet()
