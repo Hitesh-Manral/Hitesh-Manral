@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Hitesh Manra</h1>
+<h1 align="center">Hi 👋, I'm Hitesh Manral</h1>
 <h3 align="center">Hello World! Welcome to my GitHub – where ideas turn into code.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hitesh-manral&label=Profile%20views&color=0e75b6&style=flat" alt="hitesh-manral" /> </p>
